@@ -6,10 +6,12 @@ import "../css/navbar.css";
 const NavBar = () => {
    return (
       <nav>
-         <Link to="">Max Morse</Link>
+         <Link to="">Hair By Holt</Link>
          <div id="links">
-            <Link to="/projects">Projects</Link>
-            <Link to="/resume">Resume</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/showcase">Showcase</Link>
+            <Link to="/about">About</Link>
          </div>
       </nav>
    );
