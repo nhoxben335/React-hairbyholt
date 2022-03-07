@@ -1,13 +1,13 @@
 import React from 'react';
 import "../css/reset.css";
-import "../css/services.css";
+import "../css/showcase.css";
 
-const Services = () => {
+const Showcase = () => {
    return (
       <div>
-         services
+         showcase
       </div>
    );
 }
 
-export default Services;
+export default Showcase;

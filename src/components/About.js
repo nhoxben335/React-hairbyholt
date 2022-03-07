@@ -1,13 +1,13 @@
 import React from 'react';
 import "../css/reset.css";
-import "../css/services.css";
+import "../css/about.css";
 
-const Services = () => {
+const About = () => {
    return (
       <div>
-         services
+         about
       </div>
    );
 }
 
-export default Services;
+export default About;
