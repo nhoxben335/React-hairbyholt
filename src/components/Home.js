@@ -4,8 +4,8 @@ import "../css/home.css";
 import Flickity from "flickity";
 
 const Home = () => {
-   const flickity = new Flickity("", {});
-   
+   // const flickity = new Flickity("../images", {});
+
    return (
       <React.Fragment>
          <div id="section-1">
@@ -13,6 +13,13 @@ const Home = () => {
          </div>
          <div id="section-2">
             <h1>Casual, Affirming, Professional</h1>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'></div>
+            <div class="flickity">
+               <div class="image-cell"></div>
+               <div class="image-cell"></div>
+               <div class="image-cell"></div>
+               <div class="image-cell"></div>
+            </div>
          </div>
       </React.Fragment>
    );
