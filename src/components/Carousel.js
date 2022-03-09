@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../css/carousel.css";
 
 // https://react-slick.neostack.com/docs/example/center-mode
 const Carousel = () => {
@@ -22,10 +23,10 @@ const Carousel = () => {
    };
 
    return (
-      <div>
+      <div id="carousel">
          <Slider {...settings}>
             <div>
-               <img src={require('../images/showcaseImages/b_1.jpg')}/>
+               <img src={require('../images/showcaseImages/b_1.jpg') }/>
             </div>
             <div>
                <img src={require('../images/showcaseImages/co_1.jpg')}/>
@@ -45,9 +46,9 @@ const Carousel = () => {
             <div>
                <img src={require('../images/showcaseImages/ri_3.jpg')}/>
             </div>
-            <div>
+            {/* <div>
             <img src={require('../images/bootstrap.png')}/>
-            </div>
+            </div> */}
          </Slider>
       </div>
    );
