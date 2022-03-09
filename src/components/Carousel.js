@@ -14,7 +14,7 @@ const Carousel = () => {
       className: "center",
       draggable: true,
       focusOnSelect: true,
-      infinite: false,
+      infinite: true,
       slidesToShow: 4,
       slidesToScroll: 1,
       speed: 300,
