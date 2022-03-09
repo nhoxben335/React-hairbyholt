@@ -25,6 +25,8 @@ function Home() {
       </React.Fragment>
    );
 }
+
+// slider 
 export default class CenterMode extends Component {
    render() {
      const settings = {
