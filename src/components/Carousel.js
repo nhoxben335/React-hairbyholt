@@ -20,6 +20,7 @@ const Carousel = () => {
       speed: 300,
       swipe: true,
       swipeToSlide: true,
+      variableWidth: true
    };
 
    return (
