@@ -18,22 +18,25 @@ const Carousel = () => {
       <div>
          <Slider {...settings}>
             <div>
-               <img src={require('../images/azure-functions.png')}/>
+               <img src={require('../images/showcaseImages/b_1.jpg')}/>
             </div>
             <div>
-               <img src={require('../images/azure.png')}/>
+               <img src={require('../images/showcaseImages/co_1.jpg')}/>
             </div>
             <div>
-               <img src={require('../images/bootstrap.png')}/>
+               <img src={require('../images/showcaseImages/ern_1.jpg')}/>
             </div>
             <div>
-               <img src={require('../images/azure.png')}/>
+               <img src={require('../images/showcaseImages/ja_1.jpg')}/>
             </div>
             <div>
-               <img src={require('../images/azure-functions.png')}/>
+               <img src={require('../images/showcaseImages/josh_1.jpg')}/>
             </div>
             <div>
-               <img src={require('../images/bootstrap.png')}/>
+               <img src={require('../images/showcaseImages/ka_1.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/ri_3.jpg')}/>
             </div>
          </Slider>
       </div>
