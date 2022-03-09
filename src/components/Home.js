@@ -27,6 +27,7 @@ function Home() {
 }
 
 // slider 
+// https://react-slick.neostack.com/docs/example/center-mode
 export default class CenterMode extends Component {
    render() {
      const settings = {
