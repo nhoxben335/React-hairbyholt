@@ -30,6 +30,7 @@ const Carousel = () => {
              infinite: true,
              dots: true,
              variableWidth: true,
+             adaptiveHeight: true
            }
          }
       ]
