@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35"
+   height="35"
+   viewBox="0 0 9.2604165 9.2604169"
+   version="1.1"
+   id="svg827"
+   inkscapeVersion="1.1 (c68e22c387, 2021-05-23)"
+   sodipodiDocname="hamburger.svg"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <sodipodiNamedview
+     id="namedview829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscapePageshadow="2"
+     inkscapePageopacity="0.0"
+     inkscapePagecheckerboard="0"
+     inkscapeDocument-units="mm"
+     showgrid="true"
+     units="px"
+     inkscapeZoom="8.3856039"
+     inkscapeCx="12.461834"
+     inkscapeCy="11.03081"
+     inkscapeWindow-width="1920"
+     inkscapeWindow-height="1017"
+     inkscapeWindow-x="-8"
+     inkscapeWindow-y="-8"
+     inkscapeWindow-maximized="1"
+     inkscapeCurrent-layer="layer2">
+    <inkscapeGrid
+       type="xygrid"
+       id="grid2164" />
+  </sodipodiNamedview>
+  <defs
+     id="defs824" />
+  <g
+     inkscapeGroupmode="layer"
+     id="layer2"
+     inkscapeLabel="Layer 2"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1431"
+       width="6.4701023"
+       height="0.29003906"
+       x="1.4673978"
+       y="2.0912108" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1431-0"
+       width="6.4701023"
+       height="0.29003906"
+       x="1.4673977"
+       y="4.4979167" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1431-8"
+       width="6.4701023"
+       height="0.29003906"
+       x="1.467398"
+       y="6.8537111" />
+  </g>
+</svg>

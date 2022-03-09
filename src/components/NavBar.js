@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "../css/reset.css";
 import "../css/navbar.css";
-import icon from "../images/hamburger.png";
+import icon from "../images/hamburger.svg";
 
 const NavBar = () => {
    return (
