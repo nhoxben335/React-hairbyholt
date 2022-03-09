@@ -4,9 +4,6 @@ import "../css/reset.css";
 import "../css/navbar.css";
 import icon from "../images/hamburger.png";
 
-
-
-
 const NavBar = () => {
    return (
       <div id="nav">
