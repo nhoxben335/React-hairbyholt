@@ -6,12 +6,19 @@ import "slick-carousel/slick/slick-theme.css";
 // https://react-slick.neostack.com/docs/example/center-mode
 const Carousel = () => {
    const settings = {
-      className: "center",
+      accessability: true,
+      dots: true,
       centerMode: true,
-      infinite: false,
       centerPadding: "60px",
-      slidesToShow: 3,
-      speed: 300
+      className: "center",
+      draggable: true,
+      focusOnSelect: true,
+      infinite: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      speed: 300,
+      swipe: true,
+      swipeToSlide: true,
    };
 
    return (
@@ -37,6 +44,9 @@ const Carousel = () => {
             </div>
             <div>
                <img src={require('../images/showcaseImages/ri_3.jpg')}/>
+            </div>
+            <div>
+            <img src={require('../images/bootstrap.png')}/>
             </div>
          </Slider>
       </div>
