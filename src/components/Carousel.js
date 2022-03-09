@@ -42,6 +42,9 @@ const Carousel = () => {
             <div>
                <img src={require('../images/bootstrap.png')}/>
             </div>
+            <div>
+            <img src={require('../images/bootstrap.png')}/>
+            </div>
          </Slider>
       </div>
    );
