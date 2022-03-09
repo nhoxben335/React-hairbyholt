@@ -1,0 +1,27 @@
+#carousel img {
+    width: 290px;
+    height:250px;
+    object-fit:cover;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
+
+#carousel {
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+.slickk-arrow {
+    color: black;
+}
+
+.slickk-prev{
+    z-index: 100;
+    left: 20px !important;
+}
+
+.slickk-next{
+    z-index: 100;
+    right: 20px !important;
+}
