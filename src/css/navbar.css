@@ -52,6 +52,12 @@ ul {
     #linkItems {
         margin-top: 30px;
     }
+
+    #nav {
+        background-color: rgb(27,27,27);
+        position: static;
+        height: auto;
+    }
     
     
 }
