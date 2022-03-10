@@ -1,0 +1,42 @@
+#services 
+{
+   background-color: rgb(27, 27, 27);
+   padding-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+thead, tbody, th, td, tr 
+{
+   color: white;
+   padding: 3px;
+}
+
+thead
+{
+   border-bottom: 1px solid !important;
+   border-color: white !important;
+   padding: 6px !important;
+}
+
+/* table 
+{
+   border: 1px solid;
+   color: white;
+} */
+
+#table-div 
+{
+   background-color: rgb(42, 42, 42);
+   padding: 2vw;
+   border-radius: 5px;
+}
+
+h1
+{
+   padding-top: 80px;
+   text-align: center;
+   color: white;
+}
