@@ -42,7 +42,7 @@ h1
 }
 
 #header {
-   background-image: url("/public/barber.jpg");
+   background-image: url("https://picsum.photos/1800/800/?blur");
    height: 500px;
    margin-bottom: 75px;
 }
