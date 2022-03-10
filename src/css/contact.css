@@ -1,5 +1,6 @@
 #header {
     background-image: url("https://picsum.photos/1800/800/?blur");
+    background-attachment: fixed;
     height: 300px;
     margin-bottom: 75px;
  }
