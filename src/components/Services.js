@@ -8,12 +8,12 @@ const Services = () => {
       <div id="services">
          <h1>Services</h1>
          <div id="table-div">
-            <table class="table-sort table-arrows">
+            <table className="table-sort table-arrows">
                <thead>
                   <tr>
-                     <th class="order-by-desc">Name</th>
-                     <th class="order-by-desc">Time</th>
-                     <th class="order-by-desc">Price</th>
+                     <th className="order-by-desc">Name</th>
+                     <th className="order-by-desc">Time</th>
+                     <th className="order-by-desc">Price</th>
                   </tr>
                </thead>
                <tbody>
