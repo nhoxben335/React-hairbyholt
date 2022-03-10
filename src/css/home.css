@@ -11,10 +11,10 @@ h1 {
 
 #section-1 {
     background-image: url("https://picsum.photos/1800/800/?blur");
-    height: 800px;
+    height: 300px;
     margin-bottom: 30px;
 }
 
 #section-1 h1 {
-    padding-top: 400px;
+    padding-top: 150px;
  }

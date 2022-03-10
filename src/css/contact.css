@@ -1,9 +1,9 @@
 #header {
     background-image: url("https://picsum.photos/1800/800/?blur");
-    height: 500px;
+    height: 300px;
     margin-bottom: 75px;
  }
 
  #header h1 {
-    padding-top: 250px;
+   padding-top: 150px;
  }
