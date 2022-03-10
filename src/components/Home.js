@@ -7,9 +7,12 @@ function Home() {
    return (
       <React.Fragment>
          <div id="home">
-            <div id="section-1" className="container-fluid ps-0 pe-0">
+         <div id="section-1" className="container-fluid ps-0 pe-0">
+              <h1>Hair by Holt</h1>
+         </div>
+            {/* <div id="section-1" className="container-fluid ps-0 pe-0">
                <img className="img-fluid w-100" src="https://picsum.photos/1400/600" />
-            </div>
+            </div> */}
             <div id="section-2" className="container">
                <h1>Casual, Affirming, Professional</h1>
                <Carousel/>
@@ -20,3 +23,4 @@ function Home() {
 }
 
 export default Home;
+

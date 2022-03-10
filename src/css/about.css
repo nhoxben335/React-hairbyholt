@@ -12,3 +12,12 @@ p {
    background-color: rgb(27, 27, 27);
    padding-bottom: 80px;
 }
+
+#header {
+   background-image: url("/public/barber.jpg");
+   height: 500px;
+}
+
+#header h1 {
+   padding-top: 250px;
+}

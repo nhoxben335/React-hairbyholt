@@ -10,7 +10,9 @@ const Services = () => {
 
    return (
       <div id="services">
-         <h1>Services</h1>
+         <div className="container-fluid" id="header">
+            <h1>Services</h1>
+         </div>
          <div id="table-div">
             <table className="table-sort table-arrows">
                <thead>

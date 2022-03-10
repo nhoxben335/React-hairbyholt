@@ -5,7 +5,9 @@ import "../css/showcase.css";
 const Showcase = () => {
    return (
       <div id="showcase">
-         <h1>showcase</h1>
+         <div className="container-fluid" id="header">
+            <h1>Showcase</h1>
+         </div>
          <div className="container">
             <div className="row">
 

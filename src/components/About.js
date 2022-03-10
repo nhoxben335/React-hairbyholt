@@ -5,6 +5,9 @@ import "../css/about.css";
 const About = () => {
    return (
       <div id="about">
+         <div className="container-fluid" id="header">
+            <h1>contact</h1>
+         </div>
          <div className="container">
             <h1>About</h1>
             <p>

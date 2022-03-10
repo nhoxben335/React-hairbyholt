@@ -5,7 +5,10 @@ import "../css/contact.css";
 const Contact = () => {
    return (
       <div>
-         contact
+         <div className="container-fluid" id="header">
+            <h1>Contact</h1>
+         </div>
+         
       </div>
    );
 }

@@ -8,3 +8,12 @@ h1 {
     background-color: rgb(27, 27, 27);
     padding-bottom: 10px;
 }
+
+#section-1 {
+    background-image: url("/public/barber.jpg");
+    height: 800px;
+}
+
+#section-1 h1 {
+    padding-top: 400px;
+ }
