@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "../css/reset.css";
 import "../css/services.css";
 import tableSort from "table-sort-js/table-sort.js";
 
 const Services = () => {
+   useEffect(() => {
+      tableSort();
+   },[]);
+
    return (
       <div id="services">
          <h1>Services</h1>
