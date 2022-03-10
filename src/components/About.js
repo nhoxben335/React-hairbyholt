@@ -6,9 +6,9 @@ const About = () => {
    return (
       <div id="about">
          <div className="container-fluid" id="header">
-            <h1>contact</h1>
+            <h1>About</h1>
          </div>
-         <div className="container">
+         <div className="container" id="content">
             <h1>About</h1>
             <p>
                I work as a self-employed Mobile Hair Stylist &amp; Barber, servicing 

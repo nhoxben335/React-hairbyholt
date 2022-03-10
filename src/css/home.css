@@ -12,6 +12,7 @@ h1 {
 #section-1 {
     background-image: url("/public/barber.jpg");
     height: 800px;
+    margin-bottom: 30px;
 }
 
 #section-1 h1 {
