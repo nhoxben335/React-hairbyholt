@@ -26,7 +26,7 @@ const About = () => {
                      inclusive, and safe for all communities.
                   </p>
                   
-                  <p>
+                  <p id="discount">
                      * Discount provided for those impacted by low-income status or 
                      disability.
                   </p>
