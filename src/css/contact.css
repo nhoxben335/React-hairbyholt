@@ -1,10 +1,65 @@
+#contact {
+  background-color: rgb(27, 27, 27);
+  padding-bottom: 10px;
+}
+
+#contact #content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contactmap {
+  height:500px;
+}
+
+#contactinfo{
+  text-align: center;
+  color: white;
+}
+
+#contactinfo p {
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+#phone {
+  padding-top: 50px;
+}
+
+#phone a{
+  text-decoration: none;
+  color: white;
+}
+
+#phone a:hover {
+  color: rgb(201, 129, 191);
+}
+
 #header {
-    background-image: url("https://picsum.photos/1800/800/?blur");
-    background-attachment: fixed;
-    height: 300px;
-    margin-bottom: 75px;
- }
+  background-image: url("../images/banner2.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  height: 350px;
+  margin-bottom: 30px;
+}
 
  #header h1 {
    padding-top: 150px;
+   font-family: 'UnifrakturMaguntia', cursive;
+   font-size: 72px;
  }
+
+ @media only screen and (max-width: 1000px) {
+
+
+  #header {
+      background-size: cover;
+      background-position: center;
+  }   
+  
+  .contactmap {
+    height:300px;
+  }
+  
+  
+}

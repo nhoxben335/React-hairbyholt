@@ -10,12 +10,27 @@ h1 {
 }
 
 #section-1 {
-    background-image: url("https://picsum.photos/1800/800/?blur");
+    background-image: url("../images/banner2.jpg");
+    background-size: contain;
     background-attachment: fixed;
-    height: 300px;
+    height: 350px;
     margin-bottom: 30px;
+
 }
 
 #section-1 h1 {
     padding-top: 150px;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 72px;
  }
+
+ @media only screen and (max-width: 1000px) {
+
+
+    #section-1 {
+        background-size: cover;
+        background-position: center;
+    }    
+    
+    
+}

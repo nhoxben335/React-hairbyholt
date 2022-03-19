@@ -61,6 +61,48 @@ const Carousel = () => {
             <div>
                <img src={require('../images/showcaseImages/ri_3.jpg')}/>
             </div>
+            <div>
+               <img src={require('../images/showcaseImages/1.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/2.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/3.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/4.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/5.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/6.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/7.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/8.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/9.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/10.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/11.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/12.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/13.jpg')}/>
+            </div>
+            <div>
+               <img src={require('../images/showcaseImages/14.jpg')}/>
+            </div>
          </Slider>
       </div>
    );

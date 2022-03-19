@@ -8,18 +8,41 @@ p {
    color: white;
 }
 
-#about {
-   background-color: rgb(27, 27, 27);
-   padding-bottom: 80px;
+#aboutimage {
+   width: 100%;
+   padding-top: 60px;
 }
 
+#about {
+   background-color: rgb(27, 27, 27);
+}
+
+#about #content {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
 #header {
-   background-image: url("https://picsum.photos/1800/800/?blur");
+   background-image: url("../images/banner2.jpg");
+   background-size: contain;
    background-attachment: fixed;
-   height: 300px;
-   margin-bottom: 75px;
+   height: 350px;
+   margin-bottom: 30px;
 }
 
 #header h1 {
    padding-top: 150px;
+   font-family: 'UnifrakturMaguntia', cursive;
+   font-size: 72px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+   #header {
+       background-size: cover;
+       background-position: center;
+   }    
+   
+   
 }
