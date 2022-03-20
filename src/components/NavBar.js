@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "../css/reset.css";
 import "../css/navbar.css";
 import icon from "../images/hamburger.svg";
+import logo from "../images/instagram-logo.png";
 
 const NavBar = () => {
    return (
@@ -19,6 +20,7 @@ const NavBar = () => {
                      <li classname="nav-item"><Link to="/contact" className="link">Contact</Link></li>
                      <li classname="nav-item"><Link to="/showcase" className="link">Showcase</Link></li>
                      <li classname="nav-item"><Link to="/about" className="link">About</Link></li>
+                     <li classname="nav-item"><a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed"><img src={logo} id="instagram"/></a></li>
                   </ul>
                </div>
             </div>
