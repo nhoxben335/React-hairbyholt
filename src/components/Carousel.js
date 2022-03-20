@@ -40,7 +40,7 @@ const Carousel = () => {
    return (
       <div id="carousel">
          <Slider {...settings}>
-            <div>
+            {/* <div>
                <img src={require('../images/showcaseImages/b_1.jpg') }/>
             </div>
             <div>
@@ -60,7 +60,7 @@ const Carousel = () => {
             </div>
             <div>
                <img src={require('../images/showcaseImages/ri_3.jpg')}/>
-            </div>
+            </div> */}
             <div>
                <img src={require('../images/showcaseImages/1.jpg')}/>
             </div>
