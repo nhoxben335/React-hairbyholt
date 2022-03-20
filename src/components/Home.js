@@ -9,6 +9,7 @@ function Home() {
          <div id="home">
          <div id="section-1" className="container-fluid ps-0 pe-0">
               <h1>Hair by Holt</h1>
+              <h2>Mobile hair stylist and barber</h2>
          </div>
             {/* <div id="section-1" className="container-fluid ps-0 pe-0">
                <img className="img-fluid w-100" src="https://picsum.photos/1400/600" />
