@@ -3,17 +3,18 @@ h1 {
     text-align: center;
     color: white;
     
-    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Inter', sans-serif;
 }
 
 #home h2 {
     color: white;
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
 p {
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    /* font-size: 20px; */
+    /* font-family: 'Source Sans Pro', sans-serif; 
+     font-size: 20px; */
 }
 
 #home {
