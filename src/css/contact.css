@@ -18,7 +18,7 @@
 }
 
 .contactmap {
-  height:500px;
+  height:550px;
 }
 
 #contactinfo{
@@ -32,7 +32,15 @@
 }
 
 #phone {
-  padding-top: 120px;
+padding: 80px;
+}
+
+#hours h1 {
+  padding-top: 80px;
+}
+
+#hours {
+  padding: 0px 80px 80px 80px;
 }
 
 #phone a{
@@ -51,11 +59,20 @@
 
  #header h1 {
    padding-top: 150px;
-   font-family: certtoHeadline;
+    font-family: certtoHeadline;
    font-size: 72px;
  }
 
-
+ @media only screen and (min-width: 800px)
+ {
+    .contactsection
+    {
+       background-image: url("../images/paragraph_background.png");
+       background-size: 100% 100%;
+       text-shadow: 0px 0px 20px black;
+    }
+ 
+ }
 
  @media only screen and (max-width: 1000px) {
 

@@ -34,13 +34,6 @@ thead
    border-radius: 5px;
 }
 
-h1
-{
-   padding-top: 80px;
-   text-align: center;
-   color: white;
-}
-
 #header {
    background-image: url("../images/banner2.jpg");
    background-size: contain;

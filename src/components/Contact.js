@@ -22,31 +22,29 @@ const Contact = () => {
                </div>
 
                <div className="col-xl-6 contact" id="contactinfo">
-                     <div className="row">
+                  <div className="contactsection">
+                     <div className="row" id="hours">
                         <h1>Hours</h1>
-                        <div className="col-6">
-                           <p>Mon-Tues</p>
+                        <div className="col-12">
+                           <p>Mon-Tues  -  Closed</p>
                         </div>
-                        <div className="col-6">
-                           <p>Closed</p>
+                        <div className="col-12">
+                           <p>Wed-Sun  -  10AM-8PM</p>
+                        </div>  
+                     </div>
+                  </div>
+
+                     <div className="contactsection">
+                        <div id="phone">
+                           <a href="tel:9027890464">
+                              <h2>(902)789-0464</h2>
+                           </a>
                         </div>
-                        <div className="col-6">
-                           <p>Wed-Sun</p>
-                        </div>
-                        <div className="col-6">
-                           <p>10AM-8PM</p>
-                        </div>   
                      </div>
                      
-                     <div id="phone">
-                        <a href="tel:9027890464">
-                           <h2>(902)789-0464</h2>
-                        </a>
-                     </div>
-                     
+                  </div>
 
                </div>
-            </div>
          </div>
          <Footer/>
       </div>
