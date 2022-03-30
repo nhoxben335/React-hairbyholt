@@ -20,9 +20,17 @@ ul {
 }
 
 
-.link:hover {
+.link-green:hover {
     color: rgb(27,27,27);
-    background-image: url("../images/paint_stroke.png");
+    background-image: url("../images/green_paint_stroke.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.link-blue:hover {
+    color: rgb(27,27,27);
+    background-image: url("../images/blue_paint_stroke.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
