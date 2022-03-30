@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/reset.css";
 import "../css/about.css";
-import image from "../images/about3.png";
+import image from "../images/about4.png";
 import Footer from "./Footer";
 
 const About = () => {
@@ -16,6 +16,8 @@ const About = () => {
                   <div id="abouttitle">
                      <h1>About</h1>
                   </div>
+                  <div id="paragraphcontainer">
+                     <div id="paragraph">
                   <p>
                      I work as a self-employed Mobile Hair Stylist &amp; Barber, servicing 
                      the HRM. I am based in the North end of Halifax, delivering a wide 
@@ -60,6 +62,8 @@ const About = () => {
                      the 2016 &amp; 2017 Nocturne Halifax: Art at Night festival, the 2017 
                      Carnival of Beauty, and the 2017 Atlantic Wedding Showcase.
                   </p>
+                  </div>
+                  </div>
                </div>
 
                <div className="col-xl-5">

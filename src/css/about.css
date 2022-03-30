@@ -48,6 +48,12 @@ p {
    font-weight: bold;
 }
 
+#paragraphcontainer {
+   background-image: url("../images/paragraph_background2.png");
+   background-size: contain;
+}
+
+
 @media only screen and (max-width: 1000px) {
 
 
