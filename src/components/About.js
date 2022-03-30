@@ -13,10 +13,10 @@ const About = () => {
          <div className="container" id="content">
             <div className="row">
                <div className="col-xl-7">
-                  <div id="abouttitle">
+                  <div id="aboutTitle">
                      <h1>About</h1>
                   </div>
-                  <p className='aboutParagraph'>
+                  <p className="aboutParagraph">
                      I work as a self-employed Mobile Hair Stylist &amp; Barber, servicing 
                      the HRM. I am based in the North end of Halifax, delivering a wide 
                      range of services. I am dedicated to staying updated on current and 

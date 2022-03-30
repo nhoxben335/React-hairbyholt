@@ -1,3 +1,14 @@
+@font-face
+{
+    font-family: certtoHeadline;
+    src: url(../fonts/CerttoHeadline.otf);
+}
+
+#aboutTitle h1
+{
+   font-family: certtoHeadlineRegular;
+}
+
 #about #content h1 {
    text-align: center;
    color: white;
@@ -40,7 +51,6 @@ p {
 
 #header h1 {
    padding-top: 150px;
-   font-family: 'UnifrakturMaguntia', cursive;
    font-size: 72px;
 }
 
