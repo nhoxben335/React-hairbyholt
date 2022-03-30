@@ -15,7 +15,7 @@ const About = () => {
                <div className="col-xl-7">
                   <p className='aboutParagraph'>
                   <div id="abouttitle">
-                     <h1>About</h1>
+                     <h1>Taylor Holt</h1>
                   </div>
                      I work as a self-employed Mobile Hair Stylist &amp; Barber, servicing 
                      the HRM. I am based in the North end of Halifax, delivering a wide 
