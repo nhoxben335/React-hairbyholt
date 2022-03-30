@@ -61,8 +61,6 @@ const About = () => {
                      the 2016 &amp; 2017 Nocturne Halifax: Art at Night festival, the 2017 
                      Carnival of Beauty, and the 2017 Atlantic Wedding Showcase.
                   </p>
-                  </div>
-                  </div>
                </div>
 
                <div className="col-xl-5">
