@@ -59,6 +59,13 @@ p {
    #about {   
       background-size: cover; 
   }
+
+  #aboutimage {
+   width: 80%;
+   padding-top: 60px;
+   display: block;
+   margin: auto;
+}
    
    
 }

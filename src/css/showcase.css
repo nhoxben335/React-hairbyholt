@@ -17,6 +17,7 @@
     object-fit:cover;
     display: block;
     padding: 20px;
+    margin: auto;
 }
 
 #showcase h1 {
@@ -50,6 +51,7 @@
     #showcase {   
         background-image: none;
     }
+   
     
     
  }
