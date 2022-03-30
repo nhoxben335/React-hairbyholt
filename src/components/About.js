@@ -13,10 +13,10 @@ const About = () => {
          <div className="container" id="content">
             <div className="row">
                <div className="col-xl-7">
-                  <div id="aboutTitle">
+                  <p className='aboutParagraph'>
+                  <div id="abouttitle">
                      <h1>About</h1>
                   </div>
-                  <p className="aboutParagraph">
                      I work as a self-employed Mobile Hair Stylist &amp; Barber, servicing 
                      the HRM. I am based in the North end of Halifax, delivering a wide 
                      range of services. I am dedicated to staying updated on current and 
@@ -33,10 +33,20 @@ const About = () => {
                      </p>
                   </p>
 
+                  
+               </div>
+
+               <div className="col-xl-5">
+                  <img src={image} id="aboutimage"></img>
+               </div>
+
+            </div>
+
+            <div className="row">
+                  <p className="aboutParagraph">
                   <div id="historytitle">
                      <h1>History</h1>
                   </div>
-                  <p className="aboutParagraph">
                      I’ve been passionate about hair design ever since I was a small child, 
                      growing up watching my aunt working as a hair stylist. I loved the 
                      atmosphere in her small salon beneath my grandparents’ take-out. The 
@@ -63,11 +73,8 @@ const About = () => {
                   </p>
                </div>
 
-               <div className="col-xl-5">
-                  <img src={image} id="aboutimage"></img>
-               </div>
+               
 
-            </div>
 
 
          </div>
