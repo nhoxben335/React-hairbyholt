@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: certtoHeadline;
+    src: url(../fonts/CerttoHeadline.otf);
+}
+
 #contact {
   background-color: rgb(27, 27, 27);
   background-image: url("../images/neon_background.png");
