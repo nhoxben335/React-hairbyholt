@@ -19,7 +19,7 @@ const NavBar = () => {
                      {/* <li classname="nav-item"><Link to="/services" className="link">Services</Link></li> */}
                      <li classname="nav-item"><Link to="/contact" className="link link-green">Contact</Link></li>
                      <li classname="nav-item"><Link to="/showcase" className="link link-blue">Showcase</Link></li>
-                     <li classname="nav-item"><Link to="/about" className="link link-green">About</Link></li>
+                     <li classname="nav-item"><Link to="/about" className="link link-pink">About</Link></li>
                      <li classname="nav-item"><a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed"><img src={logo} id="instagram"/></a></li>
                   </ul>
                </div>
