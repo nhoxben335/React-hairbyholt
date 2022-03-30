@@ -17,9 +17,9 @@ const NavBar = () => {
                <div className="collapse navbar-collapse justify-content-end" id="menu">
                   <ul id="linkItems" className="nav navbar-nav">
                      {/* <li classname="nav-item"><Link to="/services" className="link">Services</Link></li> */}
-                     <li classname="nav-item"><Link to="/contact" className="link">Contact</Link></li>
-                     <li classname="nav-item"><Link to="/showcase" className="link">Showcase</Link></li>
-                     <li classname="nav-item"><Link to="/about" className="link">About</Link></li>
+                     <li classname="nav-item"><Link to="/contact" className="link link-green">Contact</Link></li>
+                     <li classname="nav-item"><Link to="/showcase" className="link link-blue">Showcase</Link></li>
+                     <li classname="nav-item"><Link to="/about" className="link link-green">About</Link></li>
                      <li classname="nav-item"><a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed"><img src={logo} id="instagram"/></a></li>
                   </ul>
                </div>
