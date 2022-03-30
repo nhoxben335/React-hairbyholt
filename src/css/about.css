@@ -64,14 +64,23 @@ p {
 
    #about {   
       background-size: cover; 
-  }
+   }
 
-  #aboutimage {
-   width: 80%;
-   padding-top: 60px;
-   display: block;
-   margin: auto;
+   #aboutimage {
+      width: 80%;
+      padding-top: 60px;
+      display: block;
+      margin: auto;
+   }  
 }
-   
-   
+
+@media only screen and (min-width: 800px)
+{
+   p.aboutParagraph
+   {
+      padding: 110px;
+      background-image: url("../images/paragraph_background.png");
+      background-size: 100% 100%;
+      text-shadow: 0px 0px 20px black;
+   }
 }
