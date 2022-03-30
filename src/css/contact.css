@@ -34,9 +34,6 @@
   color: white;
 }
 
-#phone a:hover {
-  color: rgb(201, 129, 191);
-}
 
 #header {
   background-image: url("../images/banner2.jpg");
@@ -51,6 +48,8 @@
    font-family: 'UnifrakturMaguntia', cursive;
    font-size: 72px;
  }
+
+
 
  @media only screen and (max-width: 1000px) {
 
