@@ -36,7 +36,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="*" element={<NoMatch/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </React.Fragment>
   );
 

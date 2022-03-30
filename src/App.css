@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#pagebackground {
+  background-image: url("./images/neon_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

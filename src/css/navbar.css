@@ -13,15 +13,19 @@ ul {
 
 .link {
     text-decoration: none;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 15px 60px 15px 60px;
     color: white;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.link:hover, .link:active {
-    color: rgb(201, 129, 191);
+
+.link:hover {
+    color: rgb(27,27,27);
+    background-image: url("../images/paint_stroke.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #nav {

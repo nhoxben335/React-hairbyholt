@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/reset.css";
 import "../css/home.css";
 import Carousel from './Carousel';
+import Footer from "./Footer";
 
 function Home() {
    return (
@@ -18,6 +19,7 @@ function Home() {
                <h1>Casual, Affirming, Professional</h1>
                <Carousel/>
             </div>
+            <Footer/>
          </div>
       </React.Fragment>
    );

@@ -1,5 +1,9 @@
 #showcase {
     background-color: rgb(27,27,27);
+    background-image: url("../images/neon_background.png");
+    background-position: bottom;
+    background-repeat: no-repeat;   
+    background-size: contain; 
 }
 
 #showcase #content {
@@ -7,7 +11,7 @@
     padding-bottom: 50px;
   }
 
-#showcase img {
+#showcase #content img {
     width: 400px;
     height:400px;
     object-fit:cover;

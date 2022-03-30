@@ -1,6 +1,7 @@
 import React from 'react';
 import "../css/reset.css";
 import "../css/showcase.css";
+import Footer from "./Footer";
 
 const Showcase = () => {
    return (
@@ -85,7 +86,7 @@ const Showcase = () => {
 
             </div>
          </div>
-         
+         <Footer/>
       </div>
    );
 }
