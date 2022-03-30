@@ -55,6 +55,10 @@ p {
        background-size: cover;
        background-position: center;
    }    
+
+   #about {   
+      background-size: cover; 
+  }
    
    
 }

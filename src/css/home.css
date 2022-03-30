@@ -46,7 +46,11 @@ p {
     #section-1 {
         background-size: cover;
         background-position: center;
-    }    
+    }   
+    
+    #home {   
+        background-size: cover; 
+    }
     
     
 }
