@@ -25,7 +25,7 @@ function App() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"></link>
 
-        <title>Hair By Holt</title>
+        <title>Studio Métamorphose</title>
       </Helmet>
       <NavBar/>
       <Routes>

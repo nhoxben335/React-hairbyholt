@@ -1,7 +1,7 @@
 @font-face
 {
-    font-family: certtoHeadline;
-    src: url(../fonts/CerttoHeadline.otf);
+  font-family: certtoHeadline;
+  src: url(../fonts/CerttoHeadline.otf);
 }
 
 #contact {
@@ -19,7 +19,6 @@
 
 .contactmap {
   height:550px;
-
 }
 
 #contactinfo{
@@ -33,22 +32,10 @@
 }
 
 #phone {
-padding: 80px;
-}
-
-#hours h1 {
-  padding-top: 80px;
-}
-
-#hours {
-  padding: 0px 80px 80px 80px;
-}
-
-#phone a{
   text-decoration: none;
   color: white;
+  font-size: 30px;
 }
-
 
 #header {
   background-image: url("../images/banner2.jpg");
@@ -58,34 +45,52 @@ padding: 80px;
   margin-bottom: 30px;
 }
 
- #header h1 {
-   padding-top: 150px;
-    font-family: certtoHeadline;
-   font-size: 72px;
- }
+#header h1 {
+  padding-top: 150px;
+  font-family: certtoHeadline;
+  font-size: 72px;
+}
 
- @media only screen and (min-width: 800px)
- {
-    .contactsection
-    {
-       background-image: url("../images/paragraph_background.png");
-       background-size: 100% 100%;
-       text-shadow: 0px 0px 20px black;
-    }
- 
- }
+#contact-section 
+{
+  background-image: url("../images/paragraph_background.png");
+  background-size: 100% 100%;
+  text-shadow: 0px 0px 20px black;
+}
 
- @media only screen and (max-width: 1000px) {
+table td
+{
+  padding: 10px;
+}
 
+table thead
+{
+  font-size: 30px;
+}
 
-  #header {
-      background-size: cover;
-      background-position: center;
-  }   
-  
-  .contactmap {
-    height:300px;
+/* desktop */
+@media only screen and (min-width: 800px) 
+{
+  #contact-section
+  {
+    padding: 90px;
   }
-  
-  
+}
+
+/* mobile */
+@media only screen and (max-width: 800px) 
+{
+  #contact-section
+  {
+    padding: 40px;
+  }
+  #header 
+  {
+    background-size: cover;
+    background-position: center;
+  }   
+  .contactmap 
+  {
+    height:300px;
+  } 
 }

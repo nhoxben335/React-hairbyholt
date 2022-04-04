@@ -20,31 +20,32 @@ const Contact = () => {
                   loading="lazy">
                   </iframe>
                </div>
-
-               <div className="col-xl-6 contact" id="contactinfo">
-                  <div className="contactsection">
-                     <div className="row" id="hours">
-                        <h1>Hours</h1>
-                        <div className="col-12">
-                           <p>Mon-Tues  -  Closed</p>
-                        </div>
-                        <div className="col-12">
-                           <p>Wed-Sun  -  10AM-8PM</p>
-                        </div>  
+               <div className="col-xl-6 contact" id="contact-info">
+                  <div className="row" id="contact-section">
+                     <div className="col-6">
+                        <table>
+                           <thead>Hours</thead>
+                           <tr>
+                              <td>Mon-Tues</td>
+                              <td>Closed</td>
+                           </tr>
+                           <tr>
+                              <td>Wed-Sun</td>
+                              <td>10AM-8PM</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div className="col-6" id="phone-and-rate">
+                        <a id="phone" href="tel:9027890464">(902)789-0464</a>
+                        <p>
+                           $80/hour flat rate
+                           <br></br>
+                           Must book appointment.
+                        </p>
                      </div>
                   </div>
-
-                     <div className="contactsection">
-                        <div id="phone">
-                           <a href="tel:9027890464">
-                              <h2>(902)789-0464</h2>
-                           </a>
-                        </div>
-                     </div>
-                     
-                  </div>
-
                </div>
+            </div>
          </div>
          <Footer/>
       </div>
