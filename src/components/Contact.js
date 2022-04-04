@@ -32,7 +32,7 @@ const Contact = () => {
                   <div className="row" id="contact-section">
                      <div className="col-lg-6">
                         <table>
-                           <thead>Hours</thead>
+                           <thead className="border-bottom">Hours</thead>
                            <tr>
                               <td>Mon-Tues</td>
                               <td>Closed</td>
