@@ -17,10 +17,16 @@ const NavBar = () => {
                <div className="collapse navbar-collapse justify-content-end" id="menu">
                   <ul id="linkItems" className="nav navbar-nav">
                      {/* <li classname="nav-item"><Link to="/services" className="link">Services</Link></li> */}
-                     <li classname="nav-item"><Link to="/contact" className="link link-green" data-toggle="collapse" data-target="#menu">Contact</Link></li>
-                     <li classname="nav-item"><Link to="/showcase" className="link link-blue" data-toggle="collapse" data-target="#menu">Showcase</Link></li>
-                     <li classname="nav-item"><Link to="/about" className="link link-pink" data-toggle="collapse" data-target="#menu">About</Link></li>
-                     <li classname="nav-item"><a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed" data-toggle="collapse" data-target="#menu"><img src={logo} id="instagram"/></a></li>
+                     <li classname="nav-item">
+                        <Link to="/contact" className="link link-green" data-bs-toggle="collapse" data-bs-target="#menu">Contact</Link>
+                     </li>
+                     <li classname="nav-item">
+                        <Link to="/showcase" className="link link-blue" data-bs-toggle="collapse" data-bs-target="#menu">Showcase</Link>
+                     </li>
+                     <li classname="nav-item">
+                        <Link to="/about" className="link link-pink" data-bs-toggle="collapse" data-bs-target="#menu">About</Link>
+                     </li>
+                     <li classname="nav-item"><a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed" data-bs-toggle="collapse" data-bs-target="#menu"><img src={logo} id="instagram"/></a></li>
                   </ul>
                </div>
             </div>
