@@ -7,7 +7,6 @@ import 'animate.css';
 function importAll(r) {
    return r.keys().map(r);
 }
- 
 const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
 
 const Showcase = () => {
@@ -18,7 +17,7 @@ const Showcase = () => {
          </div>
          <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
-               <div className="col-lg-4">
+               {/* <div className="col-lg-4">
                   <img src={require('../images/showcaseImages/1.jpg') } className="img-fluid"/>
                </div>
                <div className="col-lg-4">
@@ -80,7 +79,7 @@ const Showcase = () => {
                </div>
                <div className="col-lg-4">
                   <img src={require('../images/showcaseImages/21.jpg')} className="img-fluid"/>
-               </div>
+               </div> */}
             </div>
          </div>
          <Footer/>
