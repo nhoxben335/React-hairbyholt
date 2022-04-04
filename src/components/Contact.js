@@ -25,10 +25,11 @@ const Contact = () => {
                      <div className='col-12'>
 
                         <a id="phone" href="tel:9027890464">(902)789-0464</a>
+                        <p>4517 St Andre St</p>
                      </div>
                   </div>
                   <div className="row" id="contact-section">
-                     <div className="col-6">
+                     <div className="col-lg-6">
                         <table>
                            <thead>Hours</thead>
                            <tr>
@@ -41,7 +42,7 @@ const Contact = () => {
                            </tr>
                         </table>
                      </div>
-                     <div className="col-6" id="rate">
+                     <div className="col-lg-6" id="rate">
                         <p>
                            $80/hour flat rate
                            <br></br>
