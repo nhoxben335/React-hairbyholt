@@ -11,7 +11,7 @@ const About = () => {
          <div className="container-fluid" id="header">
             <h1>About</h1>
          </div>
-         <div className="container animate__animated animate__fadeIn animate__slow" id="content">
+         <div className="container" id="content">
             <div className="row">
                <div className="col-xl-7">
                   {/* <p className='about-paragraph'>
@@ -31,7 +31,7 @@ const About = () => {
                      </p>
                   </p> */}
                </div>
-               <div className="col-xl-5">
+               <div className="col-xl-5 animate__animated animate__fadeIn animate__slow">
                   <img src={image} id="aboutImage"></img>
                </div>
             </div>
