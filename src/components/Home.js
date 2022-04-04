@@ -12,12 +12,16 @@ function Home() {
               <h1>Studio Metamorphose</h1>
               <h4>Mobile hair stylist and barber</h4>
          </div>
-            {/* <div id="section-1" className="container-fluid ps-0 pe-0">
-               <img className="img-fluid w-100" src="https://picsum.photos/1400/600" />
-            </div> */}
             <div id="section-2" className="container">
                <Carousel/>
                <h1>Casual, Affirming, Professional</h1>
+               <p>
+                  Studio Métamorphose’s mission is to empower LGBTQ people by 
+                  providing unique and personalized hairstyles and makeovers 
+                  that allows them to express themselves in a creative way, in 
+                  an environment that is inclusive, safe, and accommodative for 
+                  individuals who struggle with sensory overstimulation.
+               </p>
             </div>
             <Footer/>
          </div>
