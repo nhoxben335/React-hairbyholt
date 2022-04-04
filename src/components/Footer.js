@@ -9,7 +9,7 @@ const Footer = () => {
          <div className="row">
             <div className="col-4">
             </div>
-            <div className="col-4 text-center"><p>Hair by Taylor Holt</p></div>
+            <div className="col-4 text-center"><p>Studio Métamorphose</p></div>
             <div className="col-4 text-end">
                <a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed"><img src={logo} className="float-right"/></a>
             </div>
