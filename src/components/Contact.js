@@ -21,6 +21,12 @@ const Contact = () => {
                   </iframe>
                </div>
                <div className="col-xl-6 contact" id="contact-info">
+                  <div className="row text-center" id="phone-section">
+                     <div className='col-12'>
+
+                        <a id="phone" href="tel:9027890464">(902)789-0464</a>
+                     </div>
+                  </div>
                   <div className="row" id="contact-section">
                      <div className="col-6">
                         <table>
@@ -35,8 +41,7 @@ const Contact = () => {
                            </tr>
                         </table>
                      </div>
-                     <div className="col-6" id="phone-and-rate">
-                        <a id="phone" href="tel:9027890464">(902)789-0464</a>
+                     <div className="col-6" id="rate">
                         <p>
                            $80/hour flat rate
                            <br></br>
