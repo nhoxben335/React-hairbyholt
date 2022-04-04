@@ -37,9 +37,21 @@ const Carousel = () => {
       ]
    };
 
+   function importAll(r) {
+      return r.keys().map(r);
+   }
+   const imageLocations = importAll(require.context('../images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
+   console.log(imageLocations);
+
+
    return (
       <div id="carousel">
          <Slider {...settings}>
+               {
+                  imageLocations.map((imageLocation) => {
+                     return (<img key={imageLocation} src={imageLocation} />);
+                  })
+               }
             {/* <div>
                <img src={require('../images/showcaseImages/b_1.jpg') }/>
             </div>
@@ -61,7 +73,7 @@ const Carousel = () => {
             <div>
                <img src={require('../images/showcaseImages/ri_3.jpg')}/>
             </div> */}
-            <div>
+            {/* <div>
                <img src={require('../images/showcaseImages/1.jpg')}/>
             </div>
             <div>
@@ -102,7 +114,7 @@ const Carousel = () => {
             </div>
             <div>
                <img src={require('../images/showcaseImages/14.jpg')}/>
-            </div>
+            </div> */}
          </Slider>
       </div>
    );
