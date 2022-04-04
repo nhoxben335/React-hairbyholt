@@ -25,8 +25,7 @@ const Showcase = () => {
                   imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
-                           {/* <Zoom><img overlayBgColorStart="rgba(155, 155, 0, 0.9)" overlayBgColorEnd="rgba(0, 0, 0, 0.9)" wrapStyle={{width: "100%"}} width="auto" height="100%" key={imageLocation} src={imageLocation} /></Zoom> */}
-                           <img className="d-block mx-auto" width="auto" height="100%" key={imageLocation} src={imageLocation} />
+                           <img className="img-fluid" key={imageLocation} src={imageLocation} />
                         </div>
                      );
                   })
