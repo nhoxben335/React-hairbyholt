@@ -26,7 +26,7 @@ const Showcase = () => {
          <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
                {
-                  Object.keys(imageLocations).map((imageLocation) => {
+                  imageLocations.map((imageLocation) => {
                      return (<img key={imageLocation} src={imageLocation}></img>);
                   })
                }
