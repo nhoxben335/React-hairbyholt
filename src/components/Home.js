@@ -16,8 +16,8 @@ function Home() {
                <img className="img-fluid w-100" src="https://picsum.photos/1400/600" />
             </div> */}
             <div id="section-2" className="container">
-               <h1>Casual, Affirming, Professional</h1>
                <Carousel/>
+               <h1>Casual, Affirming, Professional</h1>
             </div>
             <Footer/>
          </div>
