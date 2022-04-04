@@ -19,7 +19,7 @@ const Showcase = () => {
             <div className="row">
                {
                   imageLocations.map((imageLocation) => {
-                     return (<img key={imageLocation} src={imageLocation}></img>);
+                     return (<div className="col-lg-4"><img key={imageLocation} src={imageLocation} className="img-fluid" /></div>);
                   })
                }
             </div>
