@@ -126,4 +126,10 @@ table thead
     justify-content: center;
     align-items: center;
   }
+
+  #header h1 {
+    padding-top: 150px;
+    font-family: certtoHeadline;
+    font-size: 40px;
+}
 }

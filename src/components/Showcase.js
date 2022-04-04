@@ -25,7 +25,7 @@ const Showcase = () => {
                   imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
-                           <img className="img-fluid" key={imageLocation} src={imageLocation} />
+                           <img className="d-block mx-auto" key={imageLocation} src={imageLocation} />
                         </div>
                      );
                   })

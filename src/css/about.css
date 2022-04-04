@@ -84,4 +84,10 @@ p.history-section, ul.objectives-section {
       text-shadow: 0px 0px 20px black;
       color: white;
    }
+
+   #header h1 {
+      padding-top: 150px;
+      font-family: certtoHeadline;
+      font-size: 40px;
+  }
 }
