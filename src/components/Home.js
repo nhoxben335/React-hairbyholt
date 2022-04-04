@@ -14,7 +14,9 @@ function Home() {
               <h4>Mobile hair stylist and barber</h4>
          </div>
             <div id="section-2" className="container animate__animated animate__fadeIn animate__slow">
-               <Carousel/>
+               <div className="animate__animated animate__fadeIn animate__slow">
+                  <Carousel/>
+               </div>
                <h1>Casual, Affirming, Professional</h1>
                <p>
                   Studio Métamorphose’s mission is to empower LGBTQ people by 
