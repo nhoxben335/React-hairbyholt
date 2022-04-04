@@ -14,15 +14,21 @@ h1 {
     color: white;
     text-align: center;
     font-family: 'Inter', sans-serif;
+    font-size: 30px;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif; 
-     font-size: 18px;
+    font-size: 18px;
 }
 
 #section-2 h1 {
-    padding-bottom: 100px;
+    padding-bottom: 40px;
+}
+
+#section-2 p
+{
+    padding-bottom: 40px;
 }
 
 #home {
