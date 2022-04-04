@@ -60,6 +60,10 @@ p {
         font-size: 50px;
      }
 
+     #home h4 {
+        font-size: 20px;
+    }
+
     #section-1 {
         background-size: cover;
         background-position: center;
