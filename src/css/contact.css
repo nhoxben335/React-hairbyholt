@@ -104,5 +104,10 @@ table thead
   .contactmap 
   {
     height:300px;
-  } 
+  }
+
+  #contact-section, #phone-section {
+    background-image: none;
+    text-align: center;
+  }
 }

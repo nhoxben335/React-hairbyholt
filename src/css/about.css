@@ -73,13 +73,13 @@ p.history-section, ul.objectives-section {
    }
    #aboutImage {
       width: 80%;
-      padding-top: 60px;
+      padding-top: 40px;
       display: block;
       margin: auto;
    }
-   p.about-paragraph, ul.objectives-list {
-      padding: 90px 60px;
-      background-image: url("../images/paragraph_background.png");
+   p.history-section, ul.objectives-section {
+      padding: 40px 30px 0px 30px;
+      background-image: none;
       background-size: 100% 100%;
       text-shadow: 0px 0px 20px black;
       color: white;
