@@ -30,7 +30,7 @@ const Contact = () => {
                      </div>
                   </div>
                   <div className="row" id="contact-section">
-                     <div className="col-lg-6" id="hours">
+                     <div className="col-md-6" id="hours">
                         <table>
                            <thead className="border-bottom">Hours</thead>
                            <tr>
@@ -43,7 +43,7 @@ const Contact = () => {
                            </tr>
                         </table>
                      </div>
-                     <div className="col-lg-6" id="rate">
+                     <div className="col-md-6" id="rate">
                         <p>
                            $80/hour rate- or pay what you can.
                            <br></br>
