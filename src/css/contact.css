@@ -110,4 +110,20 @@ table thead
     background-image: none;
     text-align: center;
   }
+
+  #contact-section
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #hours
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -25,16 +25,8 @@ const Showcase = () => {
                   imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
-                           {/* <Image 
-                              key={imageLocation} 
-                              src={imageLocation} 
-                              className="img-fluid" 
-                              // style={{ width: "200px", height: "auto" }} 
-                              zoomed={zoomed} 
-                              onClick={() => setZoomed(true)} 
-                              onRequestClose={() => setZoomed(false)}
-                           /> */}
-                           <Zoom><img overlayBgColorStart="rgba(155, 155, 0, 0.9)" overlayBgColorEnd="rgba(0, 0, 0, 0.9)" wrapStyle={{width: "100%"}} width="auto" height="100%" key={imageLocation} src={imageLocation} /></Zoom>
+                           {/* <Zoom><img overlayBgColorStart="rgba(155, 155, 0, 0.9)" overlayBgColorEnd="rgba(0, 0, 0, 0.9)" wrapStyle={{width: "100%"}} width="auto" height="100%" key={imageLocation} src={imageLocation} /></Zoom> */}
+                           <img width="auto" height="100%" key={imageLocation} src={imageLocation} />
                         </div>
                      );
                   })

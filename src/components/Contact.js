@@ -30,7 +30,7 @@ const Contact = () => {
                      </div>
                   </div>
                   <div className="row" id="contact-section">
-                     <div className="col-lg-6">
+                     <div className="col-lg-6" id="hours">
                         <table>
                            <thead className="border-bottom">Hours</thead>
                            <tr>
