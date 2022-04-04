@@ -13,8 +13,8 @@ const About = () => {
          <div className="container" id="content">
             <div className="row">
                <div className="col-xl-7">
-                  <p className='aboutParagraph'>
-                     <div id="abouttitle">
+                  <p className='about-paragraph'>
+                     <div id="aboutTitle">
                         <h1>Vision</h1>
                      </div>
                      Studio Métamorphose’s mission is to empower LGBTQ people by providing 
@@ -31,14 +31,21 @@ const About = () => {
                   </p>
                </div>
                <div className="col-xl-5">
-                  <img src={image} id="aboutimage"></img>
+                  <img src={image} id="aboutImage"></img>
                </div>
             </div>
             <div className="row">
-               <p className="aboutParagraph">
-                  <div id="historytitle">
-                     <h1>History</h1>
+               <ul className="objectives-list">
+                  <div id="objectivesTitle">
+                     <h1>Objectives</h1>
                   </div>
+                  <li>Providing a safe and comfortable space for LGBTQ individuals in an intimate one-chair salon environment.</li>
+                  <li>Empowering individuals express themselves through their appearance and desired aesthetic. </li>
+                  <li>Setting an industry standard for accommodating and empathetic  hair and beauty services for queer and non-binary individuals.</li>
+                  <li>Educating and empowering the LGBTQ community and inspiring entrepreneurs who want to be in charge of their own career.</li>
+                  
+                  <br></br>
+                  <br></br>
                   I’ve been passionate about hair design ever since I was a small child, 
                   growing up watching my aunt working as a hair stylist. I loved the 
                   atmosphere in her small salon beneath my grandparents’ take-out. The 
@@ -62,7 +69,7 @@ const About = () => {
                   Stylist in the 2016 NSCAD Fashion Show, 2016 NSCAD Wearable Arts Show, 
                   the 2016 &amp; 2017 Nocturne Halifax: Art at Night festival, the 2017 
                   Carnival of Beauty, and the 2017 Atlantic Wedding Showcase.
-               </p>
+               </ul>
             </div>
          </div>
          <Footer/>
