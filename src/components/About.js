@@ -13,7 +13,7 @@ const About = () => {
          <div className="container" id="content">
             <div className="row">
                <div className="col-xl-7">
-                  <p className='about-paragraph'>
+                  {/* <p className='about-paragraph'>
                      <div id="aboutTitle">
                         <h1>Vision</h1>
                      </div>
@@ -28,7 +28,7 @@ const About = () => {
                      * Discounts provided for those impacted by low-income status or 
                      disability.
                      </p>
-                  </p>
+                  </p> */}
                </div>
                <div className="col-xl-5">
                   <img src={image} id="aboutImage"></img>
