@@ -16,7 +16,6 @@ const NavBar = () => {
                      </button>
                <div className="collapse navbar-collapse justify-content-end" id="menu">
                   <ul id="linkItems" className="nav navbar-nav">
-                     {/* <li classname="nav-item"><Link to="/services" className="link">Services</Link></li> */}
                      <li classname="nav-item"><Link to="/contact" className="link link-green"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</span></Link></li>
                      <li classname="nav-item"><Link to="/showcase" className="link link-blue"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Showcase</span></Link></li>
                      <li classname="nav-item"><Link to="/about" className="link link-pink"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About</span></Link></li>
