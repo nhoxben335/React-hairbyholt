@@ -45,7 +45,7 @@ const Contact = () => {
                      </div>
                      <div className="col-lg-6" id="rate">
                         <p>
-                           $80/hour flat rate
+                           $80/hour rate- or pay what you can.
                            <br></br>
                            Must book appointment.
                         </p>
