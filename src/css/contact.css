@@ -51,6 +51,10 @@
   font-size: 72px;
 }
 
+table {
+  color: white;
+}
+
 #contact-section, #phone-section
 {
   background-image: url("../images/paragraph_background.png");

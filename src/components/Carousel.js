@@ -41,80 +41,15 @@ const Carousel = () => {
       return r.keys().map(r);
    }
    const imageLocations = importAll(require.context('../images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
-   console.log(imageLocations);
-
 
    return (
       <div id="carousel">
          <Slider {...settings}>
-               {
+         {
                   imageLocations.map((imageLocation) => {
-                     return (<img key={imageLocation} src={imageLocation} />);
+                     return (<div><img key={imageLocation} src={imageLocation} /></div>);
                   })
                }
-            {/* <div>
-               <img src={require('../images/showcaseImages/b_1.jpg') }/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/co_1.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/ern_1.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/ja_1.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/josh_1.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/ka_1.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/ri_3.jpg')}/>
-            </div> */}
-            {/* <div>
-               <img src={require('../images/showcaseImages/1.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/2.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/3.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/4.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/5.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/6.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/7.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/8.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/9.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/10.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/11.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/12.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/13.jpg')}/>
-            </div>
-            <div>
-               <img src={require('../images/showcaseImages/14.jpg')}/>
-            </div> */}
          </Slider>
       </div>
    );
