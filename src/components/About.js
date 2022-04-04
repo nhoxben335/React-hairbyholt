@@ -3,6 +3,7 @@ import "../css/reset.css";
 import "../css/about.css";
 import image from "../images/about4.png";
 import Footer from "./Footer";
+import 'animate.css';
 
 const About = () => {
    return (
@@ -10,7 +11,7 @@ const About = () => {
          <div className="container-fluid" id="header">
             <h1>About</h1>
          </div>
-         <div className="container" id="content">
+         <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
                <div className="col-xl-7">
                   {/* <p className='about-paragraph'>

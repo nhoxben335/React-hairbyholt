@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
+import 'animate.css';
 
 const Showcase = () => {
    return (
@@ -9,7 +10,7 @@ const Showcase = () => {
          <div className="container-fluid" id="header">
             <h1>Showcase</h1>
          </div>
-         <div className="container" id="content">
+         <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
                <div className="col-lg-4">
                   <img src={require('../images/showcaseImages/1.jpg') } className="img-fluid"/>

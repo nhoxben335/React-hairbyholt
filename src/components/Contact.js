@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/reset.css";
 import "../css/contact.css";
 import Footer from "./Footer";
+import 'animate.css';
 
 const Contact = () => {
    return (
@@ -9,7 +10,7 @@ const Contact = () => {
          <div className="container-fluid" id="header">
             <h1>Contact</h1>
          </div>
-         <div className="container" id="content">
+         <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
                <div className="col-xl-6 contactmap">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.169096942675!2d-73.58325068423157!3d45.526802637284746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bd07be304dd%3A0xa365c8b7482ac32b!2s4517%20St%20Andre%20St%2C%20Montreal%2C%20QC%20H2J%202Z8!5e0!3m2!1sen!2sca!4v1647793093438!5m2!1sen!2sca" 
@@ -17,7 +18,7 @@ const Contact = () => {
                   height="100%" 
                   style={{border:0}} 
                   allowfullscreen="" 
-                  loading="lazy">
+                  loading="eager">
                   </iframe>
                </div>
                <div className="col-xl-6 contact" id="contact-info">

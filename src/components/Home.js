@@ -3,6 +3,7 @@ import "../css/reset.css";
 import "../css/home.css";
 import Carousel from './Carousel';
 import Footer from "./Footer";
+import 'animate.css';
 
 function Home() {
    return (
@@ -12,7 +13,7 @@ function Home() {
               <h1>Studio Metamorphose</h1>
               <h4>Mobile hair stylist and barber</h4>
          </div>
-            <div id="section-2" className="container">
+            <div id="section-2" className="container animate__animated animate__fadeIn animate__slow">
                <Carousel/>
                <h1>Casual, Affirming, Professional</h1>
                <p>
