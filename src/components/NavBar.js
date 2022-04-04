@@ -16,9 +16,10 @@ const NavBar = () => {
                      </button>
                <div className="collapse navbar-collapse justify-content-end" id="menu">
                   <ul id="linkItems" className="nav navbar-nav">
-                     <li className="nav-item"><Link to="/contact" className="link link-green"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</span></Link></li>
-                     <li className="nav-item"><Link to="/showcase" className="link link-blue"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Showcase</span></Link></li>
                      <li className="nav-item"><Link to="/about" className="link link-pink"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About</span></Link></li>
+                     <li className="nav-item"><Link to="/showcase" className="link link-blue"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Showcase</span></Link></li>
+                     <li className="nav-item"><Link to="/contact" className="link link-green"><span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</span></Link></li>
+
                      <li className="nav-item"><a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed"><img src={logo} id="instagram"/></a></li>
                   </ul>
                </div>
