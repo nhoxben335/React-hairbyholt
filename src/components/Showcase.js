@@ -12,28 +12,7 @@ const Showcase = () => {
          <div className="container" id="content">
             <div className="row">
                <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/b_1.jpg') } className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/co_1.jpg')} className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/ern_1.jpg')} className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/ja_1.jpg')} className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/josh_1.jpg')} className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/ka_1.jpg')} className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/ri_3.jpg')} className="img-fluid"/>
-               </div>
-               <div className="col-lg-4">
-                  <img src={require('../images/showcaseImages/1.jpg')} className="img-fluid"/>
+                  <img src={require('../images/showcaseImages/1.jpg') } className="img-fluid"/>
                </div>
                <div className="col-lg-4">
                   <img src={require('../images/showcaseImages/2.jpg')} className="img-fluid"/>
@@ -73,6 +52,27 @@ const Showcase = () => {
                </div>
                <div className="col-lg-4">
                   <img src={require('../images/showcaseImages/14.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/15.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/16.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/17.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/18.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/19.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/20.jpg')} className="img-fluid"/>
+               </div>
+               <div className="col-lg-4">
+                  <img src={require('../images/showcaseImages/21.jpg')} className="img-fluid"/>
                </div>
             </div>
          </div>
