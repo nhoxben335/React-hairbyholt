@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "../css/reset.css";
 import "../css/navbar.css";
 import icon from "../images/hamburger.svg";
-import logo from "../images/instagram-logo.png";
+import logo from "../images/Instagram_Glyph_Gradient_RGB.png";
 
 const NavBar = () => {
    return (

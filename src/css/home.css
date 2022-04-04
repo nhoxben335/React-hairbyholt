@@ -17,9 +17,9 @@ h1 {
     font-size: 30px;
 }
 
-hometext p {
+#hometext {
     font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #section-2 h1 {
@@ -28,7 +28,7 @@ hometext p {
 
 #section-2 p
 {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 #home {

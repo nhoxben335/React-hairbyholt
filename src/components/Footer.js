@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/reset.css";
 import "../css/footer.css";
-import logo from "../images/instagram-logo.png";
+import logo from "../images/Instagram_Glyph_Gradient_RGB.png";
 
 const Footer = () => {
    return (
