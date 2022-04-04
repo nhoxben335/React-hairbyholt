@@ -7,7 +7,7 @@ import logo from "../images/instagram-logo.png";
 
 const NavBar = () => {
    return (
-      <div id="nav" data-toggle="collapse" data-target="#menu">
+      <div id="nav" data-bs-toggle="collapse" data-target="#menu">
          <nav className="navbar navbar-expand-lg">
             <div id="links" className="container-fluid">
                   <a className="navbar-brand"><Link to="" id="title">Studio Metamorphose</Link></a>
