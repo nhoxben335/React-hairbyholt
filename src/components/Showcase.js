@@ -3,13 +3,21 @@ import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
 import 'animate.css';
-
-function importAll(r) {
-   return r.keys().map(r);
-}
-const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
+import { useState, useEffect } from "react";
 
 const Showcase = () => {
+
+   function importAll(r) {
+      return r.keys().map(r);
+   }
+   const imageLocations = importAll(require.context('../images/showcaseImages/', false, /\.(png|jpe?g|svg)$/));
+   console.log(imageLocations);
+
+   // const [images, setImages] = useState(0);
+   // useEffect(() => {
+   //    console.log(images);
+   // }, []);
+
    return (
       <div id="showcase">
          <div className="container-fluid" id="header">
@@ -17,6 +25,11 @@ const Showcase = () => {
          </div>
          <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
+               {
+                  Object.keys(imageLocations).map((imageLocation) => {
+                     return (<img key={imageLocation} src={imageLocation}></img>);
+                  })
+               }
                {/* <div className="col-lg-4">
                   <img src={require('../images/showcaseImages/1.jpg') } className="img-fluid"/>
                </div>
