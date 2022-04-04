@@ -3,6 +3,12 @@ import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
 
+function importAll(r) {
+   return r.keys().map(r);
+}
+ 
+const images = importAll(require.context('../images/', false, /\.(png|jpe?g|svg)$/));
+
 const Showcase = () => {
    return (
       <div id="showcase">
