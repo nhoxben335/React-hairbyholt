@@ -1,16 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Showcase from "./components/Showcase";
 
 function App() {
+  function importAll(r) {
+    return r.keys().map(r);
+  }
+  const imageLocations = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/));
+  
   return (
     <React.Fragment>
       <Helmet>
@@ -23,26 +27,24 @@ function App() {
         <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"></link>
-
         <title>Studio Métamorphose</title>
       </Helmet>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Home/>} imageLocations={imageLocations} />
         {/* <Route path="/services" element={<Services/>}/> */}
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/showcase" element={<Showcase/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="*" element={<NoMatch/>}/>
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/showcase" element={<Showcase/>} imageLocations={imageLocations} />
+        <Route path="/about" element={<About/>} />
+        <Route path="*" element={<NoMatch/>} />
       </Routes>
-      {/* <Footer/> */}
     </React.Fragment>
   );
 
   function NoMatch(props) {
     return (
       <h3>
-          No match for <code>{props.location.pathname}</code>
+        No match for <code>{props.location.pathname}</code>
       </h3>
     );
   }

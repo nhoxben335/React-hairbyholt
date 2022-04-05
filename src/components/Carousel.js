@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../css/carousel.css";
 
 // https://react-slick.neostack.com/docs/example/center-mode
-const Carousel = () => {
+const Carousel = (props) => {
    const settings = {
       accessability: true,
       dots: true,
@@ -25,31 +25,24 @@ const Carousel = () => {
          {
            breakpoint: 1024,
            settings: {
-             arrows: false,
-             slidesToShow: 1,
-             slidesToScroll: 1,
-             infinite: true,
-             dots: false,
-             variableWidth: true,
-             adaptiveHeight: true
+               arrows: false,
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               infinite: true,
+               dots: false,
+               variableWidth: true,
+               adaptiveHeight: true
            }
          }
       ]
    };
 
-   function importAll(r) {
-      return r.keys().map(r);
-   }
-   const imageLocations = importAll(require.context('../images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
-
    return (
       <div id="carousel">
          <Slider {...settings}>
-         {
-                  imageLocations.map((imageLocation) => {
-                     return (<div><img key={imageLocation} src={imageLocation} /></div>);
-                  })
-               }
+            {props.imageLocations.map((imageLocation) => {
+                  return (<div><img key={imageLocation} src={imageLocation} /></div>);
+            })}
          </Slider>
       </div>
    );
