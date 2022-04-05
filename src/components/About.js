@@ -24,7 +24,7 @@ const About = () => {
                      <li>Educating and empowering the LGBTQ community and inspiring entrepreneurs who want to be in charge of their own career.</li>
                   </ul>
                </div>
-               <div className="col-xl-5 animate__animated animate__fadeIn animate__slow">
+               <div className="col-xl-5 animate__animated animate__fadeIn animate__fast">
                   <img src={image} id="aboutImage"></img>
                </div>
             </div>

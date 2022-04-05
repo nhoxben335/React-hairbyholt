@@ -13,7 +13,7 @@ function Home(props) {
               <h1>Studio Metamorphose</h1>
               <h4>Mobile hair stylist and barber</h4>
          </div>
-            <div id="section-2" className="container animate__animated animate__fadeIn animate__slow">
+            <div id="section-2" className="container animate__animated animate__fadeIn animate__fast">
                <div className="animate__animated animate__fadeIn animate__slow">
                   <Carousel imageLocations={props.imageLocations}/>
                </div>
