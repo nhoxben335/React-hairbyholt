@@ -18,7 +18,7 @@ function Home(props) {
                   <Carousel imageLocations={props.imageLocations}/>
                </div>
                <h1>Casual, Affirming, Professional</h1>
-               <p id="hometext" className="text-center">
+               <p id="hometext">
                   Studio Métamorphose’s mission is to empower LGBTQ people by 
                   providing unique and personalized hairstyles and makeovers 
                   that allows them to express themselves in a creative way, in 
