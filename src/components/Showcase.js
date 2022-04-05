@@ -3,16 +3,11 @@ import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
 import 'animate.css';
+// import Zoom from 'react-medium-image-zoom'
+// import 'react-medium-image-zoom/dist/styles.css'
 
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
-
-const Showcase = () => {
-   function importAll(r) {
-      return r.keys().map(r);
-   }
-   const imageLocations = importAll(require.context('../images/showcaseImages/', false, /\.(png|jpe?g|svg)$/));
-   const [zoomed, setZoomed] = React.useState(false);
+const Showcase = (props) => {
+   // const [zoomed, setZoomed] = React.useState(false);
 
    return (
       <div id="showcase">
@@ -22,7 +17,7 @@ const Showcase = () => {
          <div className="container animate__animated animate__fadeIn animate__slow" id="content">
             <div className="row">
                {
-                  imageLocations.map((imageLocation) => {
+                  props.imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
                            <img className="d-block mx-auto" key={imageLocation} src={imageLocation} />

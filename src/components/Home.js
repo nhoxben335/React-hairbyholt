@@ -5,7 +5,7 @@ import Carousel from './Carousel';
 import Footer from "./Footer";
 import 'animate.css';
 
-function Home() {
+function Home(props) {
    return (
       <React.Fragment>
          <div id="home">
@@ -15,7 +15,7 @@ function Home() {
          </div>
             <div id="section-2" className="container animate__animated animate__fadeIn animate__slow">
                <div className="animate__animated animate__fadeIn animate__slow">
-                  <Carousel/>
+                  <Carousel imageLocations={props.imageLocations}/>
                </div>
                <h1>Casual, Affirming, Professional</h1>
                <p id="hometext" className="text-center">
