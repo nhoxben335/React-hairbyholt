@@ -33,7 +33,7 @@ const Showcase = (props) => {
                      return (
                         <div className="col-lg-4">
                            <SimpleReactLightbox>
-                                 <SRLWrapper options={options}>
+                                 <SRLWrapper options={options} className="mx-auto">
                                     <a href={imageLocation}>
                                        <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
                                     </a>
