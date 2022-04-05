@@ -20,7 +20,7 @@ const Showcase = (props) => {
                   props.imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
-                           <a href={imageLocation} data-lightbox="showcase"><img className="d-block mx-auto" src={imageLocation} key={imageLocation} /></a>
+                           <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
                         </div>
                      );
                   })
