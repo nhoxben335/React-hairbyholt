@@ -35,7 +35,6 @@ const Showcase = (props) => {
             </div>
          </div>
          <Footer/>
-         <script>hello</script>
       </div>
    );
 }
