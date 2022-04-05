@@ -10,7 +10,6 @@ import { SRLWrapper } from "simple-react-lightbox";
 import SimpleReactLightbox from 'simple-react-lightbox'
 
 const Showcase = (props) => {
-
    return (
       <div id="showcase">
          <div className="container-fluid" id="header">
@@ -36,6 +35,7 @@ const Showcase = (props) => {
             </div>
          </div>
          <Footer/>
+         <script>hello</script>
       </div>
    );
 }
