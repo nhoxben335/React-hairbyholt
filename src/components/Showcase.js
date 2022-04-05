@@ -3,23 +3,28 @@ import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
 import 'animate.css';
-// import Zoom from 'react-medium-image-zoom'
-// import 'react-medium-image-zoom/dist/styles.css'
+import 'lightbox2/dist/css/lightbox.css'
+import 'lightbox2/dist/js/lightbox-plus-jquery.js'
+import lightboxPlusJquery from 'lightbox2/dist/js/lightbox-plus-jquery.js';
 
 const Showcase = (props) => {
-   // const [zoomed, setZoomed] = React.useState(false);
+   lightbox.option({
+      'disableScrolling' : true
+   })
    return (
       <div id="showcase">
          <div className="container-fluid" id="header">
             <h1>Showcase</h1>
          </div>
-         <div className="container animate__animated animate__fadeIn animate__slow" id="content">
+         <div className="container animate__animated animate__fadeIn animate__fast" id="content">
             <div className="row">
                {
                   props.imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
-                           <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
+                                 <a href={imageLocation} data-lightbox="showcase">
+                                    <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
+                                 </a>
                         </div>
                      );
                   })
