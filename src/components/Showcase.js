@@ -8,7 +8,6 @@ import 'animate.css';
 
 const Showcase = (props) => {
    // const [zoomed, setZoomed] = React.useState(false);
-
    return (
       <div id="showcase">
          <div className="container-fluid" id="header">
@@ -28,6 +27,7 @@ const Showcase = (props) => {
             </div>
          </div>
          <Footer/>
+         <script>hello</script>
       </div>
    );
 }
