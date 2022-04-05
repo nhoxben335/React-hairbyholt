@@ -15,7 +15,7 @@ function Home(props) {
          </div>
             <div id="section-2" className="container animate__animated animate__fadeIn animate__fast">
                <div className="animate__animated animate__fadeIn animate__slow">
-                  <Carousel imageLocations2={props.imageLocations2}/>
+                  <Carousel latestImages={props.latestImages}/>
                </div>
                <h1>Casual, Affirming, Professional</h1>
                <p id="hometext">

@@ -29,7 +29,7 @@ const Showcase = (props) => {
          <div className="container animate__animated animate__fadeIn animate__fast" id="content">
             <div className="row">
                {
-                  props.imageLocations.map((imageLocation) => {
+                  props.images.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
                            <SimpleReactLightbox>

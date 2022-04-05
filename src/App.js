@@ -13,8 +13,13 @@ function App() {
   function importAll(r) {
     return r.keys().map(r);
   }
-  const images = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/)).sort();
-  const latestImages = images.sort().slice(-8);
+  const images = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/)).sort(function(a, b){return a-b});
+  const latestImages = images.slice(-8).reverse();
+
+  images.reverse();
+
+  console.log(images)
+  console.log(latestImages)
 
   // const imageLocations2 = importAll(require.context('./images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
 

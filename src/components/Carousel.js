@@ -41,7 +41,7 @@ const Carousel = (props) => {
    return (
       <div id="carousel">
          <Slider {...settings}>
-            {props.imageLocations2.map((imageLocation) => {
+            {props.latestImages.map((imageLocation) => {
                   return (<div><img key={imageLocation} src={imageLocation} /></div>);
             })}
          </Slider>
