@@ -3,13 +3,24 @@ import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
 import 'animate.css';
-// import 'lightbox2/dist/css/lightbox.css'
-// import 'lightbox2/dist/js/lightbox-plus-jquery.js'
-// import lightboxPlusJquery from 'lightbox2/dist/js/lightbox-plus-jquery.js';
 import { SRLWrapper } from "simple-react-lightbox";
 import SimpleReactLightbox from 'simple-react-lightbox'
 
 const Showcase = (props) => {
+
+   const options = {
+      buttons: {
+         showNextButton: false,
+         showPrevButton: false,
+         showAutoplayButton: false,
+         showThumbnailsButton: false
+      },
+      thumbnails: {
+         showThumbnails: false
+      }
+
+   }
+
    return (
       <div id="showcase">
          <div className="container-fluid" id="header">
@@ -22,7 +33,7 @@ const Showcase = (props) => {
                      return (
                         <div className="col-lg-4">
                            <SimpleReactLightbox>
-                                 <SRLWrapper>
+                                 <SRLWrapper options={options}>
                                     <a href={imageLocation}>
                                        <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
                                     </a>

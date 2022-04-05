@@ -71,4 +71,8 @@
         font-family: certtoHeadline;
         font-size: 50px;
     }
+
+    #SRLOpened {
+        margin-right: 0px !important;
+    }
 }
