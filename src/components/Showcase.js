@@ -3,15 +3,14 @@ import "../css/reset.css";
 import "../css/showcase.css";
 import Footer from "./Footer";
 import 'animate.css';
-import 'lightbox2/dist/css/lightbox.css'
-import 'lightbox2/dist/js/lightbox-plus-jquery.js'
-import lightboxPlusJquery from 'lightbox2/dist/js/lightbox-plus-jquery.js';
+// import 'lightbox2/dist/css/lightbox.css'
+// import 'lightbox2/dist/js/lightbox-plus-jquery.js'
+// import lightboxPlusJquery from 'lightbox2/dist/js/lightbox-plus-jquery.js';
+import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 const Showcase = (props) => {
 
-   lightbox.option({
-      'disableScrolling' : true
-   })
    return (
       <div id="showcase">
          <div className="container-fluid" id="header">
@@ -23,9 +22,13 @@ const Showcase = (props) => {
                   props.imageLocations.map((imageLocation) => {
                      return (
                         <div className="col-lg-4">
-                                 <a href={imageLocation} data-lightbox="showcase">
-                                    <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
-                                 </a>
+                           <SimpleReactLightbox>
+                                 <SRLWrapper>
+                                    <a href={imageLocation}>
+                                       <img className="d-block mx-auto" src={imageLocation} key={imageLocation} />
+                                    </a>
+                                 </SRLWrapper>      
+                              </SimpleReactLightbox>
                         </div>
                      );
                   })

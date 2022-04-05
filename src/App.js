@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Showcase from "./components/Showcase";
 
+
 function App() {
   function importAll(r) {
     return r.keys().map(r);
@@ -33,7 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home imageLocations={imageLocations} />} />
         {/* <Route path="/services" element={<Services/>}/> */}
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/contact" element={<Contact/>} />        
         <Route path="/showcase" element={<Showcase imageLocations={imageLocations} />} />
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<NoMatch/>} />
