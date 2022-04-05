@@ -14,7 +14,7 @@ function App() {
     return r.keys().map(r);
   }
   const imageLocations = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/));
-  
+
   return (
     <React.Fragment>
       <Helmet>
@@ -31,10 +31,10 @@ function App() {
       </Helmet>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home/>} imageLocations={imageLocations} />
+        <Route path="/" element={<Home imageLocations={imageLocations} />} />
         {/* <Route path="/services" element={<Services/>}/> */}
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/showcase" element={<Showcase/>} imageLocations={imageLocations} />
+        <Route path="/showcase" element={<Showcase imageLocations={imageLocations} />} />
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<NoMatch/>} />
       </Routes>

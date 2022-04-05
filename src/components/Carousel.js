@@ -6,6 +6,7 @@ import "../css/carousel.css";
 
 // https://react-slick.neostack.com/docs/example/center-mode
 const Carousel = (props) => {
+   console.log(props.imageLocations);
    const settings = {
       accessability: true,
       dots: true,
