@@ -9,15 +9,16 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Showcase from "./components/Showcase";
 
-
 function App() {
   function importAll(r) {
     return r.keys().map(r);
   }
-  const imageLocations = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/));
+  const images = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/)).sort();
+  const latestImages = images.sort().slice(-8);
 
-  const imageLocations2 = importAll(require.context('./images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
+  // const imageLocations2 = importAll(require.context('./images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
 
+  // sort imageLocations & pass to showcase, pass latest (8?) images to carousel
 
   return (
     <React.Fragment>
@@ -35,10 +36,10 @@ function App() {
       </Helmet>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home imageLocations2={imageLocations2} />} />
+        <Route path="/" element={<Home latestImages={latestImages} />} />
         {/* <Route path="/services" element={<Services/>}/> */}
         <Route path="/contact" element={<Contact/>} />        
-        <Route path="/showcase" element={<Showcase imageLocations={imageLocations} />} />
+        <Route path="/showcase" element={<Showcase images={images} />} />
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<NoMatch/>} />
       </Routes>
