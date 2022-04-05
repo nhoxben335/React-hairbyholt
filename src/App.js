@@ -16,6 +16,9 @@ function App() {
   }
   const imageLocations = importAll(require.context('./images/showcaseImages/', false, /\.(png|jpe?g|svg)$/));
 
+  const imageLocations2 = importAll(require.context('./images/carouselImages/', false, /\.(png|jpe?g|svg)$/));
+
+
   return (
     <React.Fragment>
       <Helmet>
@@ -32,7 +35,7 @@ function App() {
       </Helmet>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home imageLocations={imageLocations} />} />
+        <Route path="/" element={<Home imageLocations2={imageLocations2} />} />
         {/* <Route path="/services" element={<Services/>}/> */}
         <Route path="/contact" element={<Contact/>} />        
         <Route path="/showcase" element={<Showcase imageLocations={imageLocations} />} />
