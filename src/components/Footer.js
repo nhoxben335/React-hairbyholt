@@ -14,6 +14,7 @@ const Footer = () => {
                <a href="https://www.instagram.com/tayloranneholt/?utm_source=ig_embed"><img src={logo} className="float-right"/></a>
             </div>
          </div>
+         <script>https://brusheezy.com/%22%3EBrusheezy</script>
       </div>
    );
 }
