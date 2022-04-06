@@ -55,15 +55,23 @@ table {
   color: white;
 }
 
-#contact-section, #phone-section
-{
-  background-image: url("../images/paragraph_background.png");
-  background-size: 100% 100%;
+#contact-section, #phone-section {
   text-shadow: 0px 0px 20px black;
 }
 
 #phone-section {
+  background-image: url("../images/text_bg_messy.png");
   padding: 60px;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact-section {
+  background-image: url("../images/text_bg_clean.png");
+  background-size: 110% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #rate {
@@ -85,7 +93,7 @@ table thead
 {
   #contact-section
   {
-    padding: 110px;
+    padding: 60px;
   }
 }
 
