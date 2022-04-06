@@ -35,17 +35,17 @@ ul {
 
 .link-green:hover
 {
-    background-image: url("../images/green_paint_stroke.png");
+    background-image: url("../images/new_green_paint_stroke.png");
 }
 
 .link-blue:hover
 {
-    background-image: url("../images/blue_paint_stroke.png");
+    background-image: url("../images/new_blue_paint_stroke.png");
 }
 
 .link-pink:hover
 {
-    background-image: url("../images/pink_paint_stroke.png");
+    background-image: url("../images/new_pink_paint_stroke.png");
 }
 
 #nav {
