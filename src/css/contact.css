@@ -57,21 +57,19 @@ table {
 
 #contact-section, #phone-section {
   text-shadow: 0px 0px 20px black;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #phone-section {
   background-image: url("../images/text_bg_messy.png");
   padding: 60px;
   background-size: 70% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #contact-section {
   background-image: url("../images/text_bg_clean.png");
   background-size: 110% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #rate {
@@ -88,40 +86,45 @@ table thead
   font-size: 30px;
 }
 
-/* desktop */
-@media only screen and (min-width: 800px) 
+#contact-section
 {
-  #contact-section
-  {
-    padding: 60px;
-  }
+  padding: 60px;
 }
 
-/* mobile */
-@media only screen and (max-width: 800px) 
-{
-  #header 
-  {
-    background-size: cover;
-    background-position: center;
-  }   
-  .contactmap 
-  {
-    height:300px;
+/* mobile & tablet */
+@media only screen and (max-width: 1000px) {
+  #phone-section {
+    background-image: url("../images/text_bg_messy.png");
+    padding: 60px;
+    background-size: 70% 100%;
   }
-
+  
+  #contact-section {
+    background-image: url("../images/text_bg_clean.png");
+    background-size: 110% 100%;
+  }
+  
   #contact-section, #phone-section {
-    background-image: none;
     text-align: center;
   }
-
+  
   #contact-section
   {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 20px 20px 20px;
+  }
+
+  #header 
+  {
+    background-size: cover;
+    background-position: center;
+  }  
+
+  .contactmap 
+  {
+    height:300px;
   }
 
   #hours
@@ -137,8 +140,22 @@ table thead
     font-family: certtoHeadline;
     font-size: 50px;
   }
+}
 
+/* mobile */
+@media only screen and (max-width: 600px) {
   #phone-section {
-    padding-bottom: 20px;
+    background-image: url("../images/text_bg_messy.png");
+    padding: 60px;
+    background-size: 90% 100%;
+  }
+
+  #contact-section {
+    background-image: url("../images/text_bg_clean.png");
+    background-size: 100% 100%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
   }
 }
