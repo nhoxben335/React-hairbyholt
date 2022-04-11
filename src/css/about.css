@@ -14,7 +14,7 @@ p {
 }
 
 #aboutImage {
-   width: 100%;
+   width: 90%;
    padding-top: 60px;
 }
 
@@ -23,7 +23,7 @@ p {
    background-image: url("../images/neon_background.png");
    background-position: bottom;
    background-repeat: no-repeat;   
-   background-size: contain; 
+   background-size: contain;
 }
 
 #about #content {
@@ -61,10 +61,12 @@ ul.objectives-section {
    padding-left: 70px;
    padding-right: 80px;
    padding-bottom: 100px;
+   margin-top: 60px;
 }
 
 p.history-section {
    background-image: url("../images/text_bg_clean.png");
+   margin-top: 20px;
    padding-top: 60px;
    padding-left: 120px;
    padding-right: 120px;
@@ -113,7 +115,8 @@ p.history-section {
    
    #aboutImage {
       width: 80%;
-      padding-top: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       display: block;
       margin: auto;
    }
