@@ -17,9 +17,10 @@ ul {
     width: 35px;
 }
 
+
 .link {
     text-decoration: none;
-    padding: 15px 60px 15px 60px;
+    padding: 15px 30px 15px 30px;
     color: white;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -47,6 +48,8 @@ ul {
 {
     background-image: url("../images/new_pink_paint_stroke.png");
 }
+
+
 
 #nav {
     background-color: transparent;
